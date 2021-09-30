@@ -52,8 +52,9 @@ while loop:
             with open(newfilename, 'wb') as e:
                 e.write(f.read())
                 time.sleep(2)
-                print(newfilename + ' has been bindend to '+ imagename)
+                print(newfilename + ' has been bindend to '+ image)
                 time.sleep(2)
+                print('Opening ' + newfilename + '')
         os.startfile(newfilename)
 
     elif choice==3:
