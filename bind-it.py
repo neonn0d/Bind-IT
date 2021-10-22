@@ -54,8 +54,9 @@ while loop:
                 time.sleep(2)
                 print(newfilename + ' has been extracted from '+ image)
                 time.sleep(2)
-                print('Opening ' + newfilename + '')
-        os.startfile(newfilename)
+               # print('Opening ' + newfilename + '')
+        # os.startfile(newfilename)
+        # this works on windows only
 
     elif choice==3:
         print("Menu 3 has been selected")
